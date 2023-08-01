@@ -1,0 +1,56 @@
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 10px;
+    font-size: 4.2vh;
+    font-weight: bold;
+    /* Add some padding for spacing */
+}
+@media (max-width: 768px) {
+    /* Styles for screen width up to 768px (e.g., mobile devices) */
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    li {
+      padding: 10px 0;
+    }
+  }
+li #home:hover {
+    color: #EDAE49;
+    transform: scale(1.2);
+    text-shadow: none;
+}
+
+li #signup:hover {
+    color: #00798C;
+    transform: scale(1.8);
+    text-shadow: none;
+}
+
+#login:hover {
+    color: #D1495B;
+    transform: scale(1.2);
+    text-shadow: none;
+}
+
+#profile:hover {
+    color: #00798C;
+    transform: scale(1.2);
+    text-shadow: none;
+}
+#logout:hover {
+    color: #D1495B;
+    transform: scale(1.2);
+    text-shadow: none;
+}
